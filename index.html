@@ -1,11 +1,119 @@
-<!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8" />
-  <title></title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
- ...    
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </header>
+       <main>
+        <section class="section-profile" id="profile">
+            <img src="photo1.jpg" alt="me" class="section-logo">
+            <div class="section-profile-title">
+                <h1 class="section-title main-title">
+                    Roman Surin
+                </h1>
+                <h2 class="section-subtitle">
+                    JavaScript Front-end Student
+                </h2>
+            </div> 
+            
+        </section>
+        <div class="main-container">  
+        <section class="section" id="contacts">
+            <h2>Contact information</h2>
+            <ul class="section-list">
+                <li class="section-item-contacts">
+                  Country: Kazakhstan
+                </li>
+                <li class="section-item-contacts">
+                  Email: <a href="https://mail.ru" title="email">ferari0020@mail.ru</a>
+                </li>
+                <li class="section-item-contacts">
+                  Github: <a href="https://github.com/Ferari0020" title="github">Ferari0020</a>
+                </li>
+                <li class="section-item-contacts">
+                  Telegram: <a href="https://t.me/GigaChad_nft" title="tg">@GigaChad_nft</a>
+                </li>
+                <li class="section-item-contacts">
+                  Discord: <a href="https://discord.com/invite/HF3AHAZs" title="ds">Ferari0020</a>
+                </li>
+              </ul>
+        </section>
+        <section class="section" id="aboutme">
+            <h2>About me</h2>
+            <p>I graduated from the Higher Technical College with a degree in software engineering. They taught a little bit of everything, 
+                but I was interested in the lessons on learning HTML and CSS, as well as to some extent the js language. My goal is to become 
+                a professional JavaScript/Front-end developer and learn English to the fullest.
+                I think my qualities of perseverance and hard work will help with this.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills and Proficiency</h2>
+            <ul class="section-skill">
+                <li class="section-skills">HTML5, CSS3 basics</li>
+                <li class="section-skills">Git, Github</li>
+                <li class="section-skills">VS Code</li>
+                <li class="section-skills"> Adobe Photoshop</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2>Code example</h2>
+         <pre><code> 
+        function multiply(a, b){
+            return a * b
+        }
+        const assert = require("chai").assert;
+        describe("Multiply", () => {
+         it("fixed tests", () => {
+           assert.strictEqual(multiply(1,1), 1);
+           assert.strictEqual(multiply(2,1), 2);
+        });
+        });</code></pre>
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li class="section-education">Secondary vocational program technician</li>
+                <li class="section-education">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+             </section>
+        <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li class="section-language">Russian - native </li>
+                <li class="section-language">English - Beginner (according to the online test at EFset 
+                Logo <a href="https://discord.com/invite/HF3AHAZs" title="ds">(www.efset.org)</a>)</li>
+            </ul>
+        </section>
+    </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="github nav-link">© 2024 <a href="https://github.com/Ferari0020" class="github nav-link">Ferari0020</a>
+                </div>
+                <div>
+                <a href="https://wearecommunity.io/events/js-stage0-rs-2024q2" class="rss">
+                <img src="rss.jpg" alt="rss" class="rss"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+
