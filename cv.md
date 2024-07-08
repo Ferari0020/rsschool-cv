@@ -34,3 +34,7 @@ describe("Multiply", () => {
 ## Education:
 + Secondary vocational program technician\
 + RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+## Languages:
++ Russian - native 
++ English - Beginner (according to the online test at EFset Logo [www.efset.org](www.efset.org)) \
+![alt text](image.png)
